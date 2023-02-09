@@ -1,4 +1,4 @@
-Deep graph-based learning for estimating the accuracy of protein's model structure
+## ComplexQA: A Deep Graph Learning Approach for Protein Complex Structure Assessment
 
 ## Setup
 
