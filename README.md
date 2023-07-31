@@ -24,8 +24,6 @@ Updating
 1. Navigate to ComplexQA folder (You can now run this script from anywhere!)
 2. `python prepare_data.py -i ./QA_examples/Input -o 1JTD_interface.csv`
   - This command calculates the protein complex interface and saves the information to a csv file
-    If you have reference fasta file
-   `python prepare_data.py -i ./QA_examples/Input -o 1JTD_interface.csv`
 3. `python prediction_complex.py ./QA_examples/Input/1JTD 1JTD_interface.csv ./TEST_OUT/`
   - This command runs the prediction and places a csv file in TEST_OUT/ folder
 
