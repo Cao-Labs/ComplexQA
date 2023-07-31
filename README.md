@@ -22,9 +22,11 @@ Updating
 
 ## Execution
 1. Navigate to ComplexQA folder (You can now run this script from anywhere!)
-1. `python prediction_complex.py ./QA_examples/Input/3SE8 ./TEST_OUT/`
-  - This command runs the prediction and places a text file in TEST_OUT/ folder
-  - An example output is provided in `Example_Out/`
+2. python prepare_data.py -i ./QA_examples/Input -o 1JTD_interface.csv
+  - This command runs the prediction and places a csv file in TEST_OUT/ folder
+3. `python prediction_complex.py ./QA_examples/Input/1JTD 1JTD_interface.csv ./TEST_OUT/`
+  - This command runs the prediction and places a csv file in TEST_OUT/ folder
+
 
 #### Notes for execution
 - Currently, the input data must be in a folder even if you are only running one pdb. Please put pdbs in a folder named as the target name. 
